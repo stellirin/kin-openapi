@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"testing"
 
+	"czechia.dev/yaml"
 	"github.com/getkin/kin-openapi/openapi2"
 	"github.com/getkin/kin-openapi/openapi3"
-	"github.com/ghodss/yaml"
 	"github.com/stretchr/testify/require"
 )
 
@@ -142,7 +142,7 @@ definitions:
   schemas:
     TestRef:
       allOf:
-      - $ref: '#/components/schemas/TestRef2'
+        - $ref: '#/components/schemas/TestRef2'
       type: object
     TestRef2:
       type: object

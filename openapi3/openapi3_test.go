@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ghodss/yaml"
+	"czechia.dev/yaml"
 	"github.com/stretchr/testify/require"
 )
 
